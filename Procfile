@@ -1,1 +1,1 @@
-worker: nodemon index.ts
+worker: pm2 start index.js
