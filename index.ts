@@ -16,7 +16,7 @@ client.on('ready', async() => {
     console.log('Boot process started.')
 
     new WOKCommands (client, {
-        //typeScript:true,
+        typeScript:true,
         testServers:['912344510493777980'],
         botOwners: ['708914012162752592'],
         commandsDir: path.join(__dirname, 'commands'),
