@@ -7,7 +7,6 @@ export default {
     description: 'bans a user',
     requireRoles: true,
     slash: 'both',
-    testOnly: true,
     guildOnly: true,
 
     minArgs: 3,

@@ -13,7 +13,7 @@ export default (client: Client) => {
         { type: 'WATCHING' , message: 'out for latest COVID-19 info' },
         { type: 'WATCHING' , message: 'everyone' },
         { type: 'WATCHING' , message: 'out for rule breakers' },
-        { type: 'LISTENING' , message: 'to dream mask sus remix' },
+        { type: 'LISTENING' , message: '"MASK"- Dream (Official Sus Remix)' },
         { type: 'LISTENING' , message: 'to heavy metal "music"' },
     ]  as any
 
