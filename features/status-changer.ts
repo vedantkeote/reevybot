@@ -23,7 +23,7 @@ export default (client: Client) => {
         } else {
             client.user?.setActivity(statusOptions[index].message, { type: 'STREAMING', url: 'https://www.twitch.tv/vedthegreat' })
         }
-        setTimeout(updateStatus, 1000 * 60 * 2)
+        setTimeout(updateStatus, 1000 * 60 )
     }
     updateStatus()
 }
