@@ -3,7 +3,6 @@ import { ICommand } from "wokcommands";
 export default {
     category: 'Test',
     description: 'Pong',
-    testOnly: true,
 
     slash:"both",
 
