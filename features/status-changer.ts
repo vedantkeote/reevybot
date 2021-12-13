@@ -6,7 +6,7 @@ export default (client: Client) => {
         { type: 'WATCHING', message: 'the mods in the closet.' },
         { type: 'PLAYING' , message: 'Minecraft' },
         { type: 'LISTENING' , message: 'to ASMR code noises.' },
-        { type: 'WATCHING' , message: 'Streams on twitch.' },
+        { type: 'WATCHING' , message: 'streams on twitch.' },
         { type: 'STREAMING' , message: 'Going live at some point Copege' },
         { type: 'PLAYING' , message: 'Valorant' },
         { type: 'WATCHING' , message: 'everyone from the shadows' },
@@ -17,7 +17,6 @@ export default (client: Client) => {
         { type: 'LISTENING' , message: 'to heavy metal "music"' },
     ]  as any
 
-    let counter = 0
 
     const updateStatus = () => {
         const index = Math.floor(Math.random() * (statusOptions.length -1) +1)
