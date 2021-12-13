@@ -1,4 +1,4 @@
-import { Client, GuildAuditLogs } from 'discord.js'
+import { Client } from 'discord.js'
 import punishmentSchema from '../models/punishment-schema'
 
 export default ( client : Client ) => {
@@ -61,5 +61,5 @@ export default ( client : Client ) => {
 
 export const config = {
     dbName: 'EXPIRED_PUNISHMENTS',
-    displayName: 'Expired punishments.,'
+    displayName: 'Expired punishments.'
 }
