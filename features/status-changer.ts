@@ -15,6 +15,8 @@ export default (client: Client) => {
         { type: 'WATCHING' , message: 'out for rule breakers' },
         { type: 'LISTENING' , message: '"MASK"- Dream (Official Sus Remix)' },
         { type: 'LISTENING' , message: 'to heavy metal "music"' },
+        { type: 'PLAYING' , message: 'with the bois' },
+        { type: 'WATCHING' , message: 'YOU' },
     ]  as any
 
 
