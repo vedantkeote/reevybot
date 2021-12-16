@@ -21,10 +21,10 @@ client.on('ready', async() => {
         botOwners: ['708914012162752592'],
         commandsDir: path.join(__dirname, 'commands'),
         featuresDir: path.join(__dirname, 'features'),
-        // mongoUri: process.env.MONGO_URI,
-        // dbOptions: {
-        //     keepAlive: true,
-        // }
+        mongoUri: process.env.MONGO_URI,
+        dbOptions: {
+            keepAlive: true,
+        }
     })
 })
 
