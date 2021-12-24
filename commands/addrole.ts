@@ -1,4 +1,4 @@
-import { Client, GuildMember, IntegrationApplication, Interaction, MessageActionRow, MessageSelectMenu, MessageSelectOption, MessageSelectOptionData, Role, TextChannel } from "discord.js";
+import { Client, GuildMember, MessageActionRow, MessageSelectMenu, MessageSelectOptionData, Role, TextChannel } from "discord.js";
 import { ICommand } from "wokcommands";
 
 export default {
